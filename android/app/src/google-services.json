@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "871196517590",
+    "project_id": "memoryoakproject",
+    "storage_bucket": "memoryoakproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:871196517590:android:67c2b21332961581841577",
+        "android_client_info": {
+          "package_name": "com.memoryoak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "871196517590-phshpcnmnr1b9kfq3ak3u3r9ift5165o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.memoryoak",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "871196517590-24f8u0smu73o220jmtop20g3vckv7pbv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfPlQcJ8ZPIOY8dkoH_vepr7yPU7VXgv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "871196517590-24f8u0smu73o220jmtop20g3vckv7pbv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

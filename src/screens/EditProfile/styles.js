@@ -1,0 +1,206 @@
+import {StyleSheet} from 'react-native';
+import {hp, wp} from '../../util';
+
+const createStyles = theme => {
+  const styles = StyleSheet.create({
+    mainContainer: {
+      flex: 1,
+      backgroundColor: theme.color.textWhite,
+    },
+    subContainer: {
+      height: hp(12),
+      backgroundColor: theme.color.headerBackgroundColor,
+      borderBottomLeftRadius: hp(5),
+      borderBottomRightRadius: hp(5),
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      paddingLeft: hp(2),
+      alignItems: 'center',
+      paddingBottom: hp(2),
+    },
+    // dialogStyle: {
+    //   backgroundColor: 'white',
+    //   height: hp(10),
+    //   width: wp(100),
+    //   alignSelf: 'center',
+    // },
+    dialogStyle: {
+      backgroundColor: 'white',
+      // height: hp(43),
+      width: wp(60),
+      alignSelf: 'center',
+    },
+    uploadingText: {
+      paddingBottom: hp(2),
+      fontSize: theme.size.small,
+      color: theme.color.textBlack,
+      fontFamily: theme.fontFamily.boldFamily,
+      textAlign: 'center',
+    },
+    modalCloseIcon: {justifyContent: 'flex-end', alignSelf: 'flex-end'},
+    modalContentContainer: {
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    headerInitialText: {
+      // paddingLeft: hp(2.5),
+      alignSelf: 'center',
+      fontSize: hp(3),
+      color: theme.color.textBlack,
+      fontFamily: theme.fontFamily.boldFamily,
+    },
+    header: {
+      flexDirection: 'row',
+      justifyContent: 'space-between',
+      alignContent: 'center',
+    },
+    headerLastText: {
+      fontSize: theme.size.xLarge,
+      color: theme.color.backgroundColor,
+      textAlign: 'center',
+    },
+    headerContainerStyle: {
+      borderBottomColor: theme.color.headerBackgroundColor,
+    },
+    headerColor: theme.color.headerBackgroundColor,
+    addMemoryIcon: theme.color.backgroundColor,
+    container: {
+      flexGrow: 1,
+      paddingHorizontal: hp(5),
+      paddingTop: hp(10),
+      paddingBottom: hp(3),
+      justifyContent: 'space-between',
+      alignItems: 'center',
+    },
+    homeText: {
+      fontSize: theme.size.large,
+    },
+    saveChangesButton: {
+      alignSelf: 'center',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      // padding: hp(2.75),
+      width: wp(50),
+      height: hp(6.5),
+      borderRadius: hp(5),
+      borderWidth: hp(0.1),
+      borderColor: theme.color.dividerColor,
+    },
+
+    saveChangesButtonText: {
+      fontSize: theme.size.medium,
+      fontFamily: theme.fontFamily.boldFamily,
+    },
+    textFieldTile: {
+      fontSize: theme.size.medium,
+      textAlign: 'left',
+      paddingLeft: hp(1.5),
+      fontFamily: theme.fontFamily.boldFamily,
+      color: theme.color.avatarColor,
+    },
+    avatarImage: {marginTop: hp(7), marginRight: wp(5)},
+    memoryContainer: {
+      width: wp(85),
+      height: hp(20),
+      marginBottom: hp(17),
+    },
+    profileImage: {
+      marginRight: wp(5),
+      marginBottom: hp(3),
+    },
+    firstMemoryText: {
+      fontSize: theme.size.medium,
+      paddingBottom: hp(2),
+    },
+    dialogStyle: {
+      backgroundColor: 'white',
+      // height: hp(25),
+      width: wp(90),
+      alignSelf: 'center',
+    },
+    contentStyle: {
+      justifyContent: 'center',
+      alignItems: 'center',
+    },
+    profileButton: {
+      margin: hp(1),
+      alignSelf: 'center',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      width: wp(45),
+      height: hp(6),
+      borderRadius: hp(5),
+      borderWidth: hp(0.1),
+      borderColor: theme.color.headerBackgroundColor,
+      borderColor: theme.color.backgroundColor,
+    },
+    deleteButton: {
+      margin: hp(1),
+      alignSelf: 'center',
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center',
+      width: wp(55),
+      height: hp(6),
+      borderRadius: hp(5),
+      backgroundColor: theme.color.backgroundColor,
+    },
+    newMemoryButtonText: {
+      fontSize: theme.size.medium,
+      fontFamily: theme.fontFamily.boldFamily,
+    },
+    deleteBtnText: {
+      fontSize: theme.size.medium,
+      fontFamily: theme.fontFamily.boldFamily,
+      color: theme.color.textWhite,
+    },
+    textDelete: {
+      marginTop: -hp(3),
+      marginBottom: hp(2),
+      fontSize: hp(3),
+      fontFamily: theme.fontFamily.boldFamily,
+    },
+    textAlert: {
+      // marginTop: -hp(3),
+      marginBottom: hp(2),
+      fontSize: theme.size.medium,
+      fontFamily: theme.fontFamily.mediumFamily,
+      textAlign: 'center',
+      width: wp(60),
+    },
+    modalStyle: {
+      justifyContent: 'center',
+      alignItems: 'center',
+      flexDirection: 'column',
+      justifyContent: 'center',
+    },
+    iconHeaderContainer: {width: '10%', paddingLeft: hp(1)},
+    headerTitleContainer: {
+      flexDirection: 'row',
+      width: '90%',
+      alignSelf: 'center',
+      justifyContent: 'center',
+      alignContent: 'center',
+    },
+    avatarAccessory: {
+      size: wp(7),
+      height: wp(7),
+      width: wp(7),
+      color: theme.color.textWhite,
+      backgroundColor: theme.color.headerBackgroundColor,
+      borderRadius: 15,
+    },
+    avatarAccessoryContainer: {
+      backgroundColor: 'transparent',
+      elevation: 0,
+      shadowColor: 'transparent',
+      shadowOffset: {width: 0, height: 0},
+      shadowOpacity: 0,
+      shadowRadius: 0,
+    },
+  });
+  return styles;
+};
+export default createStyles;

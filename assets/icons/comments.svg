@@ -1,0 +1,6 @@
+<svg id="comments" xmlns="http://www.w3.org/2000/svg" width="18.733" height="18.733" viewBox="0 0 18.733 18.733">
+  <path id="Vector" d="M4.926,12.89H4.547C1.516,12.89,0,12.132,0,8.341V4.55Q0,0,4.547,0H10.61q4.547,0,4.547,4.55V8.341q0,4.55-4.547,4.55h-.379a.768.768,0,0,0-.606.3L8.488,14.71a1.077,1.077,0,0,1-1.819,0L5.532,13.194A.856.856,0,0,0,4.926,12.89Z" transform="translate(1.788 1.788)" fill="none" stroke="#534d4d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+  <path id="Vector-2" data-name="Vector" d="M0,0H8.941" transform="translate(4.896 6.244)" fill="none" stroke="#534d4d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+  <path id="Vector-3" data-name="Vector" d="M0,0H5.365" transform="translate(5.199 10.147)" fill="none" stroke="#534d4d" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+  <path id="Vector-4" data-name="Vector" d="M0,0H18.733V18.733H0Z" fill="none" opacity="0"/>
+</svg>
